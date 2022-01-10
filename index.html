@@ -12,6 +12,10 @@
     margin-top: 215px;
     
   }
+  a {
+    color: white;
+    text-decoration-line: none;
+  }
    
   .navbar {
   overflow: hidden;
@@ -21,15 +25,20 @@
   width: 100%; height: 175px
   }
   
-  h1 {
+  .title {
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 20px;
       margin-top: 190px;
       font-size: 48px;
       font-style: italic;
+      font-weight: 900;
       margin: 10px;
     }
+  .title:hover{
+    color: #084C61;
+    font-weight: 600;
+  }
   .nat {
       margin: 15px;
       padding-right: 15px;
@@ -40,16 +49,18 @@
     margin-right: 35px;
     margin-top: 0px;
   }
-  .subscript:hover {
+  .subscript-link:hover {
       color: #084C61;
+      font-style: italic;
+      font-weight: 400;
   }
 
 </style>
 </head>
 <body>
 <div class="navbar">
-  <h1>Waterrail</h1>
-  <p class="subscript">lorem | ipsum</p>
+  <h1 class="title"><a href="/">Waterrail</a>></h1>
+  <h1 class="subscript"><a class="subscript-link">lorem</a> | <a class="subscript-link">ipsum</a></p>
 </div>
 <p class="nat">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
 
