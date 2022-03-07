@@ -1,71 +1,59 @@
 <!DOCTYPE html>
-<html><head>
-<title>A website.</title>
-<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-  body {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 24px;
-    color: white;
-    background-color: #009B74;
-    text-align: right;
-    margin-top: 215px;
-    
-  }
-  a {
-    color: white;
-    text-decoration-line: none;
-  }
-   
-  .navbar {
-  overflow: hidden;
-  background-color: transparent;
-  position: fixed;
-  top: 0;
-  width: 100%; height: 175px
-  }
-  
-  .title {
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-top: 20px;
-      margin-top: 190px;
-      font-size: 48px;
-      font-style: italic;
-      font-weight: 900;
-      margin: 10px;
-    }
-  .title:hover{
-    color: #084C61;
-    font-weight: 600;
-  }
-  .nat {
-      margin: 15px;
-      padding-right: 15px;
-  }
-  .subscript {
-    font-size: 24px;
-    font-weight: 300;
-    margin-right: 35px;
-    margin-top: 0px;
-  }
-  .subscript-link:hover {
-      color: #084C61;
-      font-style: italic;
-      font-weight: 400;
-  }
+  <html lang="en">
+  <head>
+    <title>Waterrail's personal website</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+  </head>
+    <body>
 
-</style>
-</head>
-<body>
-<div class="navbar">
-  <h1><a href="/" class="title">Waterrail</a></h1>
-  <h1 class="subscript"><a class="subscript-link">lorem</a> | <a class="subscript-link">ipsum</a></p>
-</div>
-<p class="nat">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+    <!--pasek nawigacyjny-->
+    <div class="navbar">
+      <h1><a href="/" class="title">Waterrail</a></h1>
+      <h1 class="subscript"><a class="subscript-link">translations</a> | <a class="subscript-link">fonts</a>
+    </div>
 
+    <!--wstęp-->
+    <p class="simple" style="text-align: center; font-weight: 600; font-size: 36px;">SITE UNDER CONSTRUCTION!</p>
+    <p class="simple">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque justo leo, nec rhoncus eros congue ac.
+    Proin mattis dui quis ex elementum fringilla in sed tellus. Mauris tincidunt blandit bibendum. Aenean quis ante molestie
+    justo feugiat accumsan vitae suscipit neque. Maecenas elit lectus, fringilla consequat ultricies tincidunt, ultricies at
+    est. Cras laoreet nisl lacus. Vivamus vehicula dui a justo tincidunt dignissim. Cras sollicitudin rutrum feugiat. Proin
+    finibus vulputate nulla eget commodo. Integer non neque ac arcu dictum iaculis. Morbi nulla ligula, eleifend a arcu ut,
+    lobortis eleifend ipsum. Curabitur sem metus, pharetra id augue nec, ornare dictum ex. Curabitur mi orci, luctus a velit
+    quis, eleifend lobortis odio. Nunc ornare non diam et rutrum.
+    </p>
 
+    <!--tu wstaw listę gier-->
+    <table>
+      <tr>
+        <td class="gamedesc">A hit sandbox game without an end goal where you build your own world out of cubes. Well over 100 languages are supported.
+          <div class="note">(into Polish; collaborative)</div>
+        </td>
+        <td class="gametitle"><a href="https://minecraft.net/" target="_blank">MINECRAFT <span style="font-size:22px">JAVA EDITION</span></a></td>
+      </tr>
+    </table>
 
+    <table>
+      <tr>
+        <td class="gametitle"><a href="https://play.google.com/store/apps/details?id=com.DanVogt.DATAWING" target="_blank">DATA WING</a></td>
+        <td class="gamedesc">A racing game with elements of story wherein you play as a data packet trying to deliver its payload.
+          <div class="note">(into Polish; collaborative)</div>
+        </td>
+      </tr>
+    </table>
 
-</body></html>
+    <table>
+      <tr>
+        <td class="gamedesc">A fast-paced horror game with elements of story. You play as a protagonist trying to hide from a mythical creature.
+          <div class="note">(into Polish; full translation)</div>
+        </td>
+        <td class="gametitle"><a href="https://store.steampowered.com/app/1572420/Leenie_Boog/" target="_blank">LEENIE BOOG</a></td>
+      </tr>
+    </table>
+
+    <p class="note">
+      Minor contributions include (in alphabetical order): Chicken Invaders Universe, Discord, lichess, Mozilla Common Voice, SponsorBlock and other.
+    </p>
+  </body>
+  </html>
