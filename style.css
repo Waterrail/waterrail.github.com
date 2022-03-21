@@ -4,9 +4,9 @@ html {
     scrollbar-color: var(--primary) var(--secondary);
     scrollbar-width: thin;
     /* --- zmienne --- */
-    --primary: #FF6D22;
-    --secondary: #323232;
-    --bright: white;
+    --primary: #6FA287;
+    --secondary: #2B303A;
+    --bright: #FFFBFE;
 }
 
 body {
@@ -26,7 +26,7 @@ a {
     /* tekst podstawowy */
       text-align: justify;
       color: black;
-      background-color: white;
+      background-color: var(--bright);
       padding: 30px;
 }   
 .navbar {
@@ -46,7 +46,7 @@ a {
     font-style: italic;
     font-weight: 900;
     margin: 30px;
-    color: white;
+    color: var(--bright);
 }
 .title:hover{
     color: var(--primary);
@@ -91,7 +91,7 @@ table {
     padding-left: 30px;
     text-align: justify;
     padding: 30px;
-    background-color: white;
+    background-color: var(--bright);
     color: black;
     font-size: 20px;
     /* width: initial; */
